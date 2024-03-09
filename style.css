@@ -1,5 +1,5 @@
 body {
-    background-color: #b4c8d6;
+    background-color: #f1f1f1;
     color: #0f140f;
     
     font-size: 16;
@@ -38,10 +38,6 @@ a:active{
 }
 
 
-.info-text h4 {
-    color: #fff9dc;
-}
-
 .container {
     max-width: 900px;
     margin: auto;
@@ -49,7 +45,20 @@ a:active{
 }
 
 
+/* .social{
+    background:rgb(28, 128, 0);
+    padding: 7px;
 
+} */
+
+/* .box-model > div {
+    float: left;
+    background: #0f140f;
+    height: 125px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+} */
 
 .bg-yellow {
     background:  #fff9dc;
@@ -57,17 +66,15 @@ a:active{
 
 .bg-green {
     background: #e5ffe7;
-  }
+}
 
 .bg-red {
     background: #ffe5e5;
 }
 
 .bg-blue {
-    background-color: #8fe68c;
+    background: #d3eeee;
 }
-
-
 
 .card {
     padding: 15px 20px;
