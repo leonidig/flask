@@ -3,9 +3,9 @@ from flask import render_template
 
 @app.route("/")
 def index():    
-    return "<h1>HELLO, ZMIINI NOVATORI</h1>"
+    return render_template("_index.html")
 
 @app.route("/menu")
-def index_app1():
+def menu():
 
-    return render_template("_index.html")
+    return render_template("menu.html")
