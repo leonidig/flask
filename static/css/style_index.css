@@ -1,10 +1,11 @@
 .btn {
-    background: #ece505;
-    padding: 15px 20px;
+    background: #c1716c;
+    padding: 20px 20px;
     color:  #000000;
     border: none;
     font-family: inherit;
     cursor: pointer;
+    font-style:oblique;
 }
 
 .btn:hover {
@@ -16,19 +17,25 @@
 
 p, a {
     text-align: center;
+    font: Angkor;
 }
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 720px;
+    margin-right: 720px;
     width: 50%;
+    width: 500px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.32);
   }
 
   
-  .container {
+.container {
     border: 0px solid white;
     height: 200px;
     text-align: center;
 }
+
+
 

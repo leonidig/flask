@@ -1,26 +1,54 @@
-h1 {
-  font-size: 50px;
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; 
+  color: #333; /
 }
 
+
+h1 {
+  color: #555; 
+}
+
+
 p {
-  font-size: 30px;
+  color: #666;
 }
-table, th, td {
-  text-align: left;
-  font-size: 25px;
-}
+
+
 table {
   border-collapse: collapse;
   width: 100%;
+  margin-bottom: 20px;
 }
 
-tr {
-  border-bottom: 1px solid #ddd;
+
+th {
+  background-color: #ddd; 
+  color: #555;
+  padding: 8px;
 }
-td:hover {background-color: #ece505;}
+
+
+td {
+  border: 1px solid #ddd; /* серые границы */
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
 
 
+a:hover {
+  color: #0056b3; 
+}
+
+td:hover {
+  background-color: #f0f0f0; 
+}
 
 
   
